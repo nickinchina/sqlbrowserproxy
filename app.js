@@ -38,7 +38,7 @@ server.on('proxyMsg', function (message, sender) {
 
 // 'proxyClose' is emitted when the socket closes (from a timeout) without new messages
 server.on('proxyClose', function (peer) {
-    console.log('disconnecting socket from ' + peer.address);
+    if (peer) console.log('disconnecting socket from ' + peer.address);
 });
 
 server.on('proxyError', function (err) {
