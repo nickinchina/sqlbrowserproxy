@@ -6,7 +6,7 @@ var proxy = require('./index.js'),
         localaddress: '10.0.0.121',
         localport: 1434,
         localipv6: false,
-        proxyaddress: '10.0.0.121',
+        proxyaddress: '0.0.0.0',
         timeOutTime: 10000
     };
 
