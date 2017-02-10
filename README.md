@@ -13,3 +13,5 @@
 6) copy exmaple.confg.js to config.js and enter ip mappings
 
 7) under c:\sqlbrowserproxy : node install.js
+
+8) netsh advfirewall firewall add rule name=“sqlbrowser” dir=in action=allow protocol=UDP localport=1434
