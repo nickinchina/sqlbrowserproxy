@@ -2,7 +2,7 @@
 
 1) install nodejs
 
-2) under c:\ git clone https://github.com/nickinchina/sqlbrowserproxy
+2) open command prompt(Administrator), under c:\ git clone https://github.com/nickinchina/sqlbrowserproxy
 
 3) npm install -g node-windows
 
